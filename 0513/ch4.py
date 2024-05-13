@@ -21,4 +21,3 @@ data3 = []
 for i in data :
     data3.append(i**2)
 print(data3)
-11

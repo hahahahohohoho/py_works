@@ -55,8 +55,9 @@ print(f"상위 5개= {top_5}")
 # 딕셔너리의 키-값 쌍을 튜플로 묶어 리스트에 추가
 score_list = []
 print(len(students))
-for i in range(0,len(students)):
-    score_list.append(f'{students[i]} : {sorted_scores[i]}')
+
+
+
 # 결과 출력
 print(f"리스트로 변환된 딕셔너리: {score_list}")
 # 딕셔너리의 각 요소를 enumerate를 사용하여 변환

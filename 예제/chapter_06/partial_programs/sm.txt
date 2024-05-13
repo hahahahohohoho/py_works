@@ -1,0 +1,18 @@
+#자료구조의 형태
+1. list [value, value]
+2. tuple (value, value)
+    list와 달리 불변, 
+3. set {value, value}
+4. dictionary {key : value}
+    key value로 값을 인덱싱해놓은것
+
+딕셔너리 값에 접근하기
+    딕셔너리명[key]
+딕셔너리 key-value 쌍 추가하기
+    딕셔너리명[key] = value
+    수정도 ↑ 마찬가지
+딕셔너리 key-value 값 제거하기
+    del 딕셔너리[key]
+    제거한 key-value는 영구히 제거
+비슷한 객체의 딕셔너리
+    key : value를 \n\t로 모아쓰기(JSON처럼)

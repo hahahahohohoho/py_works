@@ -30,7 +30,7 @@ print(data, type(data), sorted(data))
 
 # data = list(map(int, input().split()))
 # print(data, type(data), type(data[0]))
-# print(sum(data))
+print('11111',max(data), min(data))
 
 number = int('56')
 print(number, type(number))

@@ -1,2 +1,9 @@
-dic = {'c=': '1','c-':'2','dz=':'3','d-':'4','lj':'5','nj':'6','s=':'7','z=':'8'}
 a = input()
+
+key_arr = ['c=','c-','dz=','d-','lj','nj','s=','z=']
+
+for i in range(len(key_arr)):
+    a = a.replace(key_arr[i], '1')
+
+
+print(len(a))

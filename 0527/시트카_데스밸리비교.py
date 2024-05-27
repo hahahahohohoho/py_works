@@ -8,7 +8,7 @@ lines1 = path1.read_text().splitlines()
 reader1 = csv.reader(lines1)
 header_row1 = next(reader1)
 
-path2 = Path('./0524/csv/death_valley_2021_full.csv')
+path2 = Path('./0527/csv/death_valley_2021_full.csv')
 lines2 = path2.read_text().splitlines()
 reader2 = csv.reader(lines2)
 header_row2 = next(reader2)

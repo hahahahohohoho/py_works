@@ -3,7 +3,7 @@ import csv
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-path1 = Path('./0524/csv/sitka_weather_2021_full.csv')
+path1 = Path('./0527/csv/sitka_weather_2021_full.csv')
 lines1 = path1.read_text().splitlines()
 reader1 = csv.reader(lines1)
 header_row1 = next(reader1)

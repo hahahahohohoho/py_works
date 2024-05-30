@@ -10,3 +10,4 @@ for i in range(min(len(keys_list), len(values_list))):
     new_dict[keys_list[i]] = values_list[i]
 
 print(new_dict)
+print(type(int(3)), 3)

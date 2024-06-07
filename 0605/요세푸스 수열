@@ -1,0 +1,4 @@
+a, b = map(int, input().split())
+def josephus_q(n, k)->list[int]:
+  res : list[int]=[]
+  q = Que
